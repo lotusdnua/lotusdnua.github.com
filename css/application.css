@@ -1,0 +1,48 @@
+@media (min-width: 979px) {
+  body {
+    padding-top: 41px;
+  }
+}
+
+@media (max-width: 979px) {
+  .navbar-fixed-top {
+    margin-bottom: 0;
+  }
+}
+
+
+ul.list > li {
+  list-style: none;
+}
+
+ul.list > li:before {
+  content: '\2014\a0';
+}
+
+section {
+  padding-top: 30px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.jumbotron {
+  padding: 40px 0;
+  color: #fff;
+  background: -webkit-linear-gradient(45deg, #020031 0%,#6d3353 100%);
+}
+
+@media (max-width: 768px) {
+  .jumbotron {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+section > .page-header {
+  color: #5a5a5a;
+}
+
