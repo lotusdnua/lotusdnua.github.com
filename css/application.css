@@ -31,7 +31,10 @@ margin-right: 10px;
 
 .header a {
 color: #323c81;
-text-decoration: none;
+}
+
+a.logo {
+  text-decoration: none;
 }
 
 div.page {
