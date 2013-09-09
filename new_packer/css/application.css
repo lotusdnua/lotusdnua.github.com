@@ -1,0 +1,226 @@
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #242121;
+  background-color: #e2dcd8;
+  
+}
+
+.navbar-inverse {
+  background-color: #f2b48f;
+  border-color: #fbb466;
+  background-image: linear-gradient(to bottom,#ef790b ,#fbb466);
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #242121;
+  font-size: 16px;
+  font-weight: bold; 
+
+}
+
+.navbar-nav {
+  float: right;
+  margin: 0;
+}
+
+.navbar .brand {
+  padding: 0px;
+  color: #111111;
+  position: relative;
+  bottom: 0px;
+  margin-bottom: -19px;
+  float: left;
+}
+
+a {
+  color: #b95d40;
+  text-decoration: none;
+}
+
+.span4 img {
+  margin-right: 40px;
+}
+
+a:hover {
+  color: #80402c;
+  text-decoration: underline;
+}
+h1 {
+  font-size: 40px;
+  line-height: 40px;
+  color: #e4e1da;
+
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 40px;
+  color: #5F5E66;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 40px;
+  color: #5F5E66;
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 20px;
+  color: #5F5E66;
+}
+
+.jumbotron {
+  background-image: linear-gradient(to bottom,#4e7ea9 ,#284259);
+}
+
+.jumbotron h1 {
+  font-size: 40px;
+  line-height: 40px;
+  color: #e4e1da;
+  text-align: center;
+}
+
+.jumbotron p {
+  text-align: center;
+}
+
+/* CAROUSEL
+-------------------------------------------------- */
+.carousel {
+  margin-bottom: 10px;
+  margin-top: 0px;
+  background-image: linear-gradient(to bottom,#4e7ea9 ,#284259);
+}
+/* из-за положения изображения, мы должны помочь заголовоку */
+.carousel-caption {
+  z-index: 10;
+}
+
+.btn-primary {
+  color: #ffffff;
+  background-color: #b98540;
+  border-color: #b98540;
+}
+
+.btn-primary:hover, .btn-primary:focus, 
+.btn-primary:active, .btn-primary.active, 
+.open .dropdown-toggle.btn-primary {
+  color: #ffffff;
+  background-color: #ed9c28;
+  border-color: #d58512;
+}
+
+/* позиционирование элемента IMG */
+.carousel .item {
+  height: 500px;
+}
+
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+  width: auto;
+}
+
+
+
+
+
+
+@media (min-width: 768px) {
+  /* для мобильных */
+  .marketing {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .featurette-heading {
+    font-size: 30px;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 12px;
+  }
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 0;
+  border-top: 1px solid #fbb466;
+}
+
+
+footer {
+  position: relative;
+  margin-top: 20px;
+}
+
+.footer-primary {
+  padding: 36px 0 48px 0;
+  border-top: #284259;
+  background-color: #284259;
+  background-image: linear-gradient(to bottom,#31506c ,#284259);
+  color: #bfbdbd;
+}
+
+@media (min-width: 1200px) {
+  .span4 {
+   float: left;
+   min-height: 1px;
+   margin-left: 48px;
+}
+}
+
+.footer-section-heading {
+  border-bottom: 1px solid #555;
+  padding-bottom: 3px;
+}
+
+h6, .h6 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.copyright {
+  display: block;
+  padding: 18px 0;
+  border-top: 1px solid #555;
+  text-align: center;
+}
+
+
+.logo-med {
+  bottom: 115px;
+  position: absolute;
+  right: 50px;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+}
+
+.span8  {
+  font-size: 16px;
+  line-height: 2;
+}
+
+.navbar-inverse .navbar-toggle {
+border-color: #f7972e;
+}
+
+
+
+
