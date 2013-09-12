@@ -12,7 +12,7 @@ body {
 .navbar-inverse {
   background-color: #f2b48f;
   border-color: #fbb466;
-  background-image: -webkit-linear-gradient(bottom,#ef790b ,#fbb466);
+  background-image: -webkit-linear-gradient(top,#ef790b ,#fbb466);
 }
 
 .navbar-inverse .navbar-nav > li > a {
