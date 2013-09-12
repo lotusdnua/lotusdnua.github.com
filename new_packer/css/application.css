@@ -150,7 +150,7 @@ footer {
   padding: 36px 0 48px 0;
   border-top: #284259;
   background-color: #284259;
-  background-image: linear-gradient(to bottom,#31506c ,#284259);
+  background-image: -webkit-linear-gradient(top,#31506c ,#284259);
   color: #bfbdbd;
 }
 
