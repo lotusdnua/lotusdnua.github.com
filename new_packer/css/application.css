@@ -5,7 +5,7 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: #242121;
-  background-color: #e2dcd8;
+  background-image: -webkit-linear-gradient(top,#e6e5ea ,#d2d1d6);
   padding-top: 50px;
 }
 
