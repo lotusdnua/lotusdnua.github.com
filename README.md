@@ -4,16 +4,16 @@
 
 Для редактирования описани на главной странице нужно редактировать следующие файлы:
 
- - [_includes/short_description/product.md](скотч)
- - [_includes/short_description/product_tape.md](малярная лента)
- - [_includes/short_description/product_stretch.md](стретч пленка)
- - [_includes/short_description/product_logo.md](скотч с логотипом)
+ - [скотч](_includes/short_description/product.md)
+ - [малярная лента](_includes/short_description/product_tape.md)
+ - [стретч пленка](_includes/short_description/product_stretch.md)
+ - [скотч с логотипом](_includes/short_description/product_logo.md)
 
 Для редактирования содержимого страниц нужно редактировать:
 
- - [product.md](скотч)
- - [product_tape.md](малярная лента)
- - [product_stretch.md](стретч пленка)
- - [product_logo.md](скотч с логотипом)
+ - [скотч](product.md)
+ - [малярная лента](product_tape.md)
+ - [стретч пленка](product_stretch.md)
+ - [скотч с логотипом](product_logo.md)
 
-Для редактирования страницы "О нас": [about.md](О нас)
+Для редактирования страницы "О нас": [О нас](about.md)
