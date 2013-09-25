@@ -154,7 +154,7 @@ footer {
   color: #bfbdbd;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 500px) {
   .span4 {
    float: left;
    min-height: 1px;
