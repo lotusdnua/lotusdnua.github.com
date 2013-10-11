@@ -61,8 +61,8 @@ a:hover {
   color: #ff9d00;
 }
 
-.slogan h1, .slogan h2, .slogan h3, .slogan h4, .slogan h5, .slogan h6 {
-  color: #e4e1da;
+.jumbotron h1, .jumbotron h2, .jumbotron h3, .jumbotron h4, .jumbotron h5, .jumbotron h6 {
+  color: #ff9d00;
 }
 
 h1 {
@@ -83,12 +83,19 @@ h4 {
 
 .jumbotron {
   background-image: -webkit-linear-gradient(bottom,#4e7ea9 ,#284259);
+  margin-bottom: 0px;
+}
+
+@media (max-width: 768px) {
+  .jumbotron, .slogan {
+    display: none;
+  }
 }
 
 .jumbotron h1 {
   font-size: 40px;
   line-height: 40px;
-  color: #e4e1da;
+  color: #ff9d00;
   text-align: center;
 }
 
