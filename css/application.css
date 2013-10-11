@@ -212,3 +212,13 @@ h6, .h6 {
   font-size: 16px;
   line-height: 2;
 }
+
+.contakt {
+  background-color: #f2b48f;
+  border-color: #fbb466;
+  background-image: -webkit-linear-gradient(top,#ef790b ,#fbb466);
+}
+
+.mail {
+  color: #1a4276;
+}
